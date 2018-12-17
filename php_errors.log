@@ -1,0 +1,19 @@
+[03-Aug-2017 04:12:00 UTC] PHP Fatal error:  Can't use function return value in write context in /home/ubuntu/workspace/storage/framework/views/e9abe018e536cc78d5f0cffd990ea89788ba6a5c.php on line 313
+[09-Aug-2017 02:09:36 UTC] PHP Fatal error:  Uncaught ReflectionException: Class config does not exist in /home/ubuntu/workspace/vendor/laravel/framework/src/Illuminate/Container/Container.php:729
+Stack trace:
+#0 /home/ubuntu/workspace/vendor/laravel/framework/src/Illuminate/Container/Container.php(729): ReflectionClass->__construct('config')
+#1 /home/ubuntu/workspace/vendor/laravel/framework/src/Illuminate/Container/Container.php(608): Illuminate\Container\Container->build('config')
+#2 /home/ubuntu/workspace/vendor/laravel/framework/src/Illuminate/Container/Container.php(575): Illuminate\Container\Container->resolve('config')
+#3 /home/ubuntu/workspace/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(728): Illuminate\Container\Container->make('config')
+#4 /home/ubuntu/workspace/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(106): Illuminate\Foundation\Application->make('config')
+#5 /home/ubuntu/workspace/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(269): app('config')
+#6 /home/ubuntu/workspace/vendor/l in /home/ubuntu/workspace/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 729
+[09-Aug-2017 02:46:41 UTC] PHP Fatal error:  Uncaught ReflectionException: Class config does not exist in /home/ubuntu/workspace/vendor/laravel/framework/src/Illuminate/Container/Container.php:729
+Stack trace:
+#0 /home/ubuntu/workspace/vendor/laravel/framework/src/Illuminate/Container/Container.php(729): ReflectionClass->__construct('config')
+#1 /home/ubuntu/workspace/vendor/laravel/framework/src/Illuminate/Container/Container.php(608): Illuminate\Container\Container->build('config')
+#2 /home/ubuntu/workspace/vendor/laravel/framework/src/Illuminate/Container/Container.php(575): Illuminate\Container\Container->resolve('config')
+#3 /home/ubuntu/workspace/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(728): Illuminate\Container\Container->make('config')
+#4 /home/ubuntu/workspace/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(106): Illuminate\Foundation\Application->make('config')
+#5 /home/ubuntu/workspace/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(269): app('config')
+#6 /home/ubuntu/workspace/vendor/l in /home/ubuntu/workspace/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 729

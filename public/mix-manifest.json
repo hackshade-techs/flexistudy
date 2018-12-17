@@ -1,0 +1,12 @@
+{
+  "/js/frontend.js": "/js/frontend.js",
+  "/js/backend.js": "/js/backend.js",
+  "/mix.js": "/mix.js",
+  "/css/frontend.css": "/css/frontend.css",
+  "/css/backend.css": "/css/backend.css",
+  "/css/themes/blue.css": "/css/themes/blue.css",
+  "/css/themes/green.css": "/css/themes/green.css",
+  "/css/themes/grey.css": "/css/themes/grey.css",
+  "/css/themes/red.css": "/css/themes/red.css",
+  "/css/themes/olive.css": "/css/themes/olive.css"
+}

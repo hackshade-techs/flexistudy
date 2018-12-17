@@ -1,0 +1,28 @@
+// Fonts
+//@import url(https://fonts.googleapis.com/css?family=Raleway:300,400,600);
+
+// Variables
+//@import "variables";
+
+// Bootstrap
+//@import "~bootstrap-sass/assets/stylesheets/bootstrap";
+
+// Font Awesome
+//@import "~font-awesome/scss/font-awesome";
+
+// Helpers
+//@import "../helpers";
+
+// Global
+//@import "global";
+
+// Pages
+//@import "pages/dashboard";
+
+@import "node_modules/selectize/dist/css/selectize.default";
+@import "node_modules/video.js/dist/video-js.min";
+//@import "node_modules/videojs-iplayer-skin/dist/videojs-iplayer-theme.min";
+
+// Plugins
+@import "../plugin/toastr/toastr.scss";
+@import "../plugin/sweetalert/sweetalert.scss";

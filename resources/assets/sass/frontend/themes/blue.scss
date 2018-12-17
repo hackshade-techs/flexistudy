@@ -1,0 +1,208 @@
+$footer-bg: #0b4873;
+$primary-bg: #0d568a;
+$primary-bg-hover: #3ba5e2;
+$primary-txt: #ffffff;
+$dark: #0d568a;
+$preview-overlay: rgba(74, 195, 170, 0.2);
+$light: #3ba5e2;
+$panel-primary: #0d568a;
+$jumbotron-background-dark: #0d568a;
+$jumbotron-background-light: #3ba5e2;
+
+.jumbotron{
+    background-color: $jumbotron-background-dark;
+    background-image: -ms-radial-gradient(center top,circle farthest-side,$jumbotron-background-light 0%,$jumbotron-background-dark 100%);
+    background-image: -moz-radial-gradient(center top,circle farthest-side,$jumbotron-background-light 0%,$jumbotron-background-dark 100%);
+    background-image: -o-radial-gradient(center top,circle farthest-side,$jumbotron-background-light 0%,$jumbotron-background-dark 100%);
+    background-image: -webkit-gradient(radial,center top,0,center top,487,color-stop(0,$jumbotron-background-light),color-stop(1,$jumbotron-background-dark));
+    background-image: -webkit-radial-gradient(center top,circle farthest-side,$jumbotron-background-light 0%,$jumbotron-background-dark 100%);
+    background-image: radial-gradient(circle farthest-side at center top,$jumbotron-background-light 0%,$jumbotron-background-dark 100%);
+}
+.sidebar-categories .widget ul li a:hover{
+    color: $primary-bg;
+}
+@media (min-width: 979px) {
+  .navbar-nav li:hover .dropdown-menu{
+    border-top: 4px solid $jumbotron-background-light;
+  }
+}
+
+.social-login li a:hover {
+    background-color: $primary-bg;
+    border-color: $primary-bg;
+}
+
+.bg-sub-banner-course {
+    background-color: $preview-overlay;
+}
+
+.text-success{
+    color: $primary-bg;
+}
+.btn-success{
+    background-color: $primary-bg;
+}
+.btn-success:hover,
+.btn-success:focus{
+    background-color: $primary-bg-hover;
+}
+.form-check a:hover,
+a:hover, a:focus,
+.info-instructor .fa:hover, 
+.info-instructor .icon:hover{
+    color: $primary-bg;
+}
+.nav-tabs .tabs-hr {
+    background-color: $primary-bg;
+}
+
+.nav-tabs > li > a:hover,
+.nav-tabs > li > a:focus,
+.nav-tabs > li.active > a, 
+.nav-tabs > li.active > a:hover, 
+.nav-tabs > li.active > a:focus {
+    border: none;
+    -webkit-box-shadow: inset 0 -2px 0 $primary-bg;
+    box-shadow: inset 0 -2px 0 $primary-bg;
+    color: $primary-bg;
+}
+
+.btn-primary, .btn-primary:focus,
+.btn-style-1, .btn-style-1:focus,
+.btn-style-3, 
+.btn-style-3:focus{
+    color: $primary-txt;
+    background-color: $primary-bg;
+}
+
+textarea:focus, 
+textarea.form-control, 
+select, select.form-control, 
+input.form-control:focus, 
+input[type=text]:focus, 
+input[type=password]:focus, 
+input[type=email]:focus, input[type=number]:focus, 
+[type=text].form-control:focus, 
+[type=password].form-control:focus, 
+[type=email].form-control:focus, 
+[type=tel].form-control:focus, 
+[contenteditable].form-control:focus {
+    border: 1px solid $primary-bg;
+    -webkit-box-shadow: inset 0 -1px 0 $primary-bg;
+    box-shadow: inset 0 -1px 0 $primary-bg;
+}
+
+.create-course-sidebar .list-bar .active {
+    background-color: $primary-bg;
+}
+.panel-primary {
+    border-color: $panel-primary;
+}
+.panel-primary > .panel-heading {
+    background-color: $panel-primary !important;
+    border-color: $panel-primary  !important;
+}
+.navbar-default .navbar-brand {
+    color: $primary-bg !important;
+}
+
+.btn-primary:hover,
+.btn-style-1:hover,
+.btn-style-2,
+.btn-style-2:hover{
+    color: $primary-txt;
+    background-color: $primary-bg-hover;
+}
+
+h5, .sm, .text-primary,
+.big a:hover, .md a:hover, .sm a:hover, .xsm a:hover,
+.video-course-intro .video-place .play-icon .fa,
+.message-body .list-message .ac-new .list-body .author span,
+.ps-container > .ps-scrollbar-y-rail > .ps-scrollbar-y{
+    color: $dark !important;
+}
+.mc-section-3 .title-box:before,
+.mc-item .meta-categories{
+    background-color: $primary-bg;
+}
+.tag-btn {
+    color: $dark !important;
+    border: 1px solid $dark;
+}
+
+.section-outline .section-list li:hover .count{
+    background-color: $light;
+}
+.section-outline .tit-section{
+    background-color: $primary-bg;
+}
+.awe-overlay {
+    background-color: $preview-overlay;
+}
+
+.checkbox-inline input[type="checkbox"]:focus:after,
+input[type="checkbox"]:focus:after,
+.checkbox input[type="checkbox"]:focus:after{
+    border-color: $primary-bg;
+}
+
+.ps-container > .ps-scrollbar-y-rail > .ps-scrollbar-y {
+    background-color: $primary-bg;
+}
+
+.portlet-green, 
+.portlet-green>.portlet-heading {
+    border-color: $primary-bg;
+}
+
+input[type="checkbox"]:checked:after, 
+.checkbox input[type="checkbox"]:checked:after, 
+.checkbox-inline input[type="checkbox"]:checked:after{
+    background-color: $primary-bg;
+    border-color: $primary-bg;
+}
+
+.mc-item h4 a:hover,
+.mc-item .name-author a,
+.mc-item .ft-item .price,
+.sidebar-categories .widget ul .current a,
+.sidebar-categories .widget ul .current a:hover,
+.nav-tabs > li > a:hover,
+.nav-tabs .tabs-hr,
+.nav-tabs > li.active > a:hover, 
+.nav-tabs > li.active > a:focus:hover,
+.nav-tabs > li.active > a, .nav-tabs > li.active > a:focus,
+.video-course-intro .price,
+.content-bar li.current a, 
+.content-bar li.active a,
+.content-bar li:focus,
+.content-bar li:hover,
+a {
+    color: $primary-bg;
+}
+.sidebar-categories .widget ul li:hover:after,
+.sidebar-categories .widget ul .current:after{
+    background-color: $primary-bg;
+}
+
+.first-footer .widget ul li a:hover {
+    color: $light;
+}
+
+.first-footer .news_letter {
+    border-bottom: 4px solid $primary-bg;
+}
+
+.content-bar li a:hover {
+    color: $primary-bg;
+    border-bottom: 3px solid transparent;
+}
+.content-bar li.current a, 
+.content-bar li.active a,
+.content-bar li:focus,
+.content-bar li:hover{
+    border-bottom-color: $primary-bg;
+}
+#footer {
+    background-color: $footer-bg;
+}

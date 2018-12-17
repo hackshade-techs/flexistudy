@@ -1,0 +1,99 @@
+APP_NAME="TutorPro GOLD"
+APP_ENV=production
+APP_KEY=base64:crojeNtsDPvLmMxd03QS5KVgSFcQ9+oYs0P9C9EfnQY=
+APP_DEBUG=true
+APP_LOG_LEVEL=debug
+APP_URL=http://gold.tutorproapp.com/
+APP_LOCALE=en
+APP_FALLBACK_LOCALE=en
+APP_LOCALE_PHP=en_US
+APP_TIMEZONE=UTC
+
+################################# DATABASE SETTINGS ##################
+DB_CONNECTION=mysql
+DB_HOST=localhost
+DB_PORT=3306
+DB_DATABASE=xxxxxx
+DB_USERNAME=xxxxxxxx
+DB_PASSWORD=xxxxxxxxxxxxxxxxxx
+
+BROADCAST_DRIVER=log
+CACHE_DRIVER=file
+SESSION_DRIVER=database
+QUEUE_DRIVER=sync
+
+################################# MAIL SETTINGS ##################
+MAIL_DRIVER=smtp
+MAIL_FROM_ADDRESS=tutorpro@example.com
+MAIL_FROM_NAME=TutorPro
+MAIL_HOST=smtp.mailtrap.io
+MAIL_PORT=2525
+MAIL_USERNAME=xxxxxxxxxxxxxxxxx
+MAIL_PASSWORD=xxxxxxxxxxxxxxx
+MAIL_ENCRYPTION=null
+
+MAILGUN_DOMAIN=sandboxxxxxxxxxxxxxx.org
+MAILGUN_SECRET=key-xxxxxxxxxxxxxxxxxxxxxxxxx
+
+# Security
+SESSION_TIMEOUT_STATUS=true
+SESSION_TIMEOUT=600
+
+# Access
+ENABLE_REGISTRATION=true
+
+################################# PAYMENT SETTINGS ##################
+# Stripe Credentials. Make sure you change your credentials from test 
+# to live when you are about to go to production mode
+STRIPE_KEY=pk_test_xxxxxxxxxxxxxxxxxx
+STRIPE_SECRET=sk_test_xxxxxxxxxxxxxxx
+
+# PayPal Credentials. The mode can be sandbox or live. Make sure you change your credentials to match the mode.
+PAYPAL_CLIENT_ID=xxxxxxxxxxxxxxxxxxxxx
+PAYPAL_SECRET=TheSEarRfaKeKeys
+PAYPAL_MODE=sandbox
+
+RAZORPAY_SECRET=xxxxxxxxxxxxxxxxxxxxx
+RAZORPAY_KEY=xxxxxxxxxxxxxxxxxxxxx
+
+################################# CAPTCHA ##########################
+# Get your credentials at: https://www.google.com/recaptcha/admin
+REGISTRATION_CAPTCHA_STATUS=true
+NOCAPTCHA_SITEKEY=xxxxxxxxxxxxxxxxxxxxxxxxxxxx
+NOCAPTCHA_SECRET=xxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+################# AMAZON S3 #########################################
+AWS_KEY=xxxxxxxxxxxxxxxxxx
+AWS_SECRET=xxxxxxxxxxxxxxxxxxxxxxxx
+AWS_REGION=xxxxxxxxxxxxx
+AWS_BUCKET=my-bucket
+
+################################# SOCIAL LOGIN  #####################
+# Socialite Providers
+FACEBOOK_CLIENT_ID=xxxxxxxxxxxxxx
+FACEBOOK_CLIENT_SECRET=xxxxxxxxxxxxxxxxx
+FACEBOOK_REDIRECT=http://yoursite.com/login/facebook
+
+BITBUCKET_CLIENT_ID=xxxxxxxxxxxxxx
+BITBUCKET_CLIENT_SECRET=xxxxxxxxxxxxxxxxx
+BITBUCKET_REDIRECT=http://yoursite/login/bitbucket
+
+GITHUB_CLIENT_ID=xxxxxxxxxxxxx
+GITHUB_CLIENT_SECRET=xxxxxxxxxxxxxxxxxxxxxxxxxxxx
+GITHUB_REDIRECT=http://yourapp.com/login/github
+
+GOOGLE_CLIENT_ID=xxxxxxxxxxx.apps.googleusercontent.com
+GOOGLE_CLIENT_SECRET=xxxxxxxxxxxx
+GOOGLE_REDIRECT=http://yoursite.com/login/google
+
+LINKEDIN_CLIENT_ID=xxxxxxxxx
+LINKEDIN_CLIENT_SECRET=xxxxxxxx
+LINKEDIN_REDIRECT=http://yoursite/login/linkedin
+
+TWITTER_CLIENT_ID=xxxxxxxxxxxx
+TWITTER_CLIENT_SECRET=xxxxxxxxxxx
+TWITTER_REDIRECT=http://yoursite/login/twitter
+
+################## DISQUS COMMENTING ON POSTS #####################
+DISQUS_ENABLED=true
+DISQUS_USERNAME=<your disqus shortname here>
